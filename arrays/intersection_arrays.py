@@ -13,7 +13,6 @@ class Solution(object):
             larger = nums2
         map1 = self.create_map(smaller)
         map2 = self.create_map(larger)
-        result = []
         result_keys = []
         result_vals_smaller = []
         result_vals_larger = []
